@@ -19,20 +19,13 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/system/etc/init/init.rilmptcp.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilmptcp.rc \
-    vendor/samsung/beyond2lte/proprietary/system/bin/connfwexe:$(TARGET_COPY_OUT_SYSTEM)/bin/connfwexe \
-    vendor/samsung/beyond2lte/proprietary/system/bin/ddexe:$(TARGET_COPY_OUT_SYSTEM)/bin/ddexe \
     vendor/samsung/beyond2lte/proprietary/system/bin/eris:$(TARGET_COPY_OUT_SYSTEM)/bin/eris \
     vendor/samsung/beyond2lte/proprietary/system/bin/ikev2-client:$(TARGET_COPY_OUT_SYSTEM)/bin/ikev2-client \
     vendor/samsung/beyond2lte/proprietary/system/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
-    vendor/samsung/beyond2lte/proprietary/system/bin/redsocks:$(TARGET_COPY_OUT_SYSTEM)/bin/redsocks \
-    vendor/samsung/beyond2lte/proprietary/system/bin/smdexe:$(TARGET_COPY_OUT_SYSTEM)/bin/smdexe \
     vendor/samsung/beyond2lte/proprietary/system/etc/eris.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/eris.conf \
     vendor/samsung/beyond2lte/proprietary/system/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.gpscommon.rc \
-    vendor/samsung/beyond2lte/proprietary/system/etc/init/init.rilcarrier.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilcarrier.rc \
-    vendor/samsung/beyond2lte/proprietary/system/etc/init/init.rilchip.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilchip.rc \
-    vendor/samsung/beyond2lte/proprietary/system/etc/init/init.rilcommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilcommon.rc \
     vendor/samsung/beyond2lte/proprietary/system/etc/init/init.rilepdg.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.rilepdg.rc \
-    vendor/samsung/beyond2lte/proprietary/system/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
+    vendor/samsung/beyond2lte/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/samsung/beyond2lte/proprietary/system/etc/restart_radio_process.sh:$(TARGET_COPY_OUT_SYSTEM)/etc/restart_radio_process.sh \
     vendor/samsung/beyond2lte/proprietary/system/etc/somxreg.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/somxreg.conf \
     vendor/samsung/beyond2lte/proprietary/system/lib/libatparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libatparser.so \
@@ -41,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/system/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdf.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomission_avoidance.so \
-    vendor/samsung/beyond2lte/proprietary/system/lib/libpa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpa.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpacm_client.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libsec_semRil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsec_semRil.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecnativefeature.so \
@@ -66,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/system/lib/libsomxwmad.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmad.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libsomxwmv7d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmv7d.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/libsomxwmv8d.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsomxwmv8d.so \
-    vendor/samsung/beyond2lte/proprietary/system/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.MultiFrameProcessing20@1.0.so \
@@ -85,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libmdf.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdf.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libomission_avoidance.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomission_avoidance.so \
-    vendor/samsung/beyond2lte/proprietary/system/lib64/libpa.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpa.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libpacm_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpacm_client.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libsec_semRil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec_semRil.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecnativefeature.so \
@@ -113,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libsuspend.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsuspend.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.nfc@2.0.so \
-    vendor/samsung/beyond2lte/proprietary/system/lib64/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
     vendor/samsung/beyond2lte/proprietary/system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
@@ -235,8 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/vendor/etc/wifi/nvram.txt_ES01_semco_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_ES01_semco_b0 \
     vendor/samsung/beyond2lte/proprietary/vendor/etc/wifi/nvram.txt_ES02_semco_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_ES02_semco_b0 \
     vendor/samsung/beyond2lte/proprietary/vendor/etc/wifi/nvram.txt_ES03_semco_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_ES03_semco_b0 \
-    vendor/samsung/beyond2lte/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/samsung/beyond2lte/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/beyond2lte/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/beyond2lte/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/beyond2lte/proprietary/vendor/firmware/APDVTX_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APDVTX_AUDIO_SLSI.bin \
@@ -368,7 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdf.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopenvx.so \
-    vendor/samsung/beyond2lte/proprietary/vendor/lib/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpa.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
@@ -445,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0-impl.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.hardware.eden_runtime@1.0.so \
@@ -541,7 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libnpuc_graph.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpuc_graph.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libnpuc_template.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpuc_template.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
-    vendor/samsung/beyond2lte/proprietary/vendor/lib64/libpa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpa.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
@@ -621,7 +605,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so \
     vendor/samsung/beyond2lte/proprietary/vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
